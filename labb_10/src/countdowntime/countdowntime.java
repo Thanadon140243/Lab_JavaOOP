@@ -1,3 +1,5 @@
+package countdowntime;
+
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Text;
@@ -66,30 +68,30 @@ public class countdowntime {
 		Hr_lb_8 = new Label(shlCountdownTimer, SWT.NONE);
 		Hr_lb_8.setText("Countdown");
 		Hr_lb_8.setForeground(SWTResourceManager.getColor(SWT.COLOR_LINK_FOREGROUND));
-		Hr_lb_8.setFont(SWTResourceManager.getFont("TH Baijam", 55, SWT.BOLD));
-		Hr_lb_8.setBounds(374, -18, 349, 101);
+		Hr_lb_8.setFont(SWTResourceManager.getFont("TH SarabunPSK", 50, SWT.BOLD));
+		Hr_lb_8.setBounds(387, -17, 326, 101);
 		
 		Hr = new Text(shlCountdownTimer, SWT.BORDER | SWT.CENTER);
 		Hr.setText("00");
-		Hr.setFont(SWTResourceManager.getFont("TH Baijam", 30, SWT.BOLD));
+		Hr.setFont(SWTResourceManager.getFont("TH SarabunPSK", 20, SWT.BOLD));
 		Hr.setBounds(30, 81, 83, 62);
 		
 		Mi = new Text(shlCountdownTimer, SWT.BORDER | SWT.CENTER);
 		Mi.setText("00");
-		Mi.setFont(SWTResourceManager.getFont("TH Baijam", 30, SWT.BOLD));
+		Mi.setFont(SWTResourceManager.getFont("TH SarabunPSK", 20, SWT.BOLD));
 		Mi.setBounds(140, 81, 83, 62);
 		
 		
 		
 		Se = new Text(shlCountdownTimer, SWT.BORDER | SWT.CENTER);
 		Se.setText("00");
-		Se.setFont(SWTResourceManager.getFont("TH Baijam", 30, SWT.BOLD));
+		Se.setFont(SWTResourceManager.getFont("TH SarabunPSK", 20, SWT.BOLD));
 		Se.setBounds(250, 81, 83, 62);
 		
 		/////////////////////////////////////////////////////////////////////////////////// button
 		
 		Button Submit = new Button(shlCountdownTimer, SWT.NONE);
-		Submit.setFont(SWTResourceManager.getFont("TH Baijam", 30, SWT.BOLD));
+		Submit.setFont(SWTResourceManager.getFont("TH SarabunPSK", 20, SWT.BOLD));
 		Submit.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
@@ -189,41 +191,41 @@ public class countdowntime {
 		/////////////////////////////////////////////////////////////////////////////////// end button
 		
 		Label Hr_lb = new Label(shlCountdownTimer, SWT.CENTER);
-		Hr_lb.setFont(SWTResourceManager.getFont("TH Baijam", 20, SWT.BOLD));
+		Hr_lb.setFont(SWTResourceManager.getFont("TH SarabunPSK", 20, SWT.BOLD));
 		Hr_lb.setBounds(30, 41, 83, 34);
 		Hr_lb.setText("Hour");
 		
 		Hr_lb_1 = new Label(shlCountdownTimer, SWT.CENTER);
 		Hr_lb_1.setText("Minute");
-		Hr_lb_1.setFont(SWTResourceManager.getFont("TH Baijam", 20, SWT.BOLD));
+		Hr_lb_1.setFont(SWTResourceManager.getFont("TH SarabunPSK", 20, SWT.BOLD));
 		Hr_lb_1.setBounds(140, 41, 83, 34);
 		
 		Hr_lb_2 = new Label(shlCountdownTimer, SWT.CENTER);
 		Hr_lb_2.setText("Second");
-		Hr_lb_2.setFont(SWTResourceManager.getFont("TH Baijam", 20, SWT.BOLD));
+		Hr_lb_2.setFont(SWTResourceManager.getFont("TH SarabunPSK", 20, SWT.BOLD));
 		Hr_lb_2.setBounds(250, 41, 83, 34);
 		
 		Hr_lb_3 = new Label(shlCountdownTimer, SWT.NONE);
 		Hr_lb_3.setText(":");
-		Hr_lb_3.setFont(SWTResourceManager.getFont("TH Baijam", 40, SWT.BOLD));
+		Hr_lb_3.setFont(SWTResourceManager.getFont("TH SarabunPSK", 20, SWT.BOLD));
 		Hr_lb_3.setBounds(119, 70, 15, 59);
 		
 		Hr_lb_4 = new Label(shlCountdownTimer, SWT.NONE);
 		Hr_lb_4.setText(":");
-		Hr_lb_4.setFont(SWTResourceManager.getFont("TH Baijam", 40, SWT.BOLD));
+		Hr_lb_4.setFont(SWTResourceManager.getFont("TH SarabunPSK", 20, SWT.BOLD));
 		Hr_lb_4.setBounds(229, 70, 15, 59);
 		
 		CD_s = new Label(shlCountdownTimer, SWT.NONE);
 		CD_s.setAlignment(SWT.CENTER);
 		CD_s.setText("00");
 		CD_s.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_BACKGROUND));
-		CD_s.setFont(SWTResourceManager.getFont("TH Baijam", 99, SWT.BOLD));
+		CD_s.setFont(SWTResourceManager.getFont("TH SarabunPSK", 75, SWT.BOLD));
 		CD_s.setBounds(489, 174, 152, 181);
 		
 		Hr_lb_5 = new Label(shlCountdownTimer, SWT.NONE);
 		Hr_lb_5.setForeground(SWTResourceManager.getColor(SWT.COLOR_LINK_FOREGROUND));
 		Hr_lb_5.setText("Enter Time");
-		Hr_lb_5.setFont(SWTResourceManager.getFont("TH Baijam", 20, SWT.BOLD));
+		Hr_lb_5.setFont(SWTResourceManager.getFont("TH SarabunPSK", 20, SWT.BOLD));
 		Hr_lb_5.setBounds(10, 10, 214, 34);
 		
 		Label label = new Label(shlCountdownTimer, SWT.NONE);
@@ -237,31 +239,31 @@ public class countdowntime {
 		CD_m = new Label(shlCountdownTimer, SWT.NONE);
 		CD_m.setAlignment(SWT.CENTER);
 		CD_m.setText("00");
-		CD_m.setFont(SWTResourceManager.getFont("TH Baijam", 99, SWT.BOLD));
+		CD_m.setFont(SWTResourceManager.getFont("TH SarabunPSK", 75, SWT.BOLD));
 		CD_m.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_BACKGROUND));
 		CD_m.setBounds(293, 174, 152, 187);
 		
 		CD_h = new Label(shlCountdownTimer, SWT.NONE);
 		CD_h.setAlignment(SWT.CENTER);
 		CD_h.setText("00");
-		CD_h.setFont(SWTResourceManager.getFont("TH Baijam", 99, SWT.BOLD));
+		CD_h.setFont(SWTResourceManager.getFont("TH SarabunPSK", 75, SWT.BOLD));
 		CD_h.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_BACKGROUND));
 		CD_h.setBounds(94, 174, 150, 193);
 		
 		Hr_lb_6 = new Label(shlCountdownTimer, SWT.NONE);
 		Hr_lb_6.setText(":");
-		Hr_lb_6.setFont(SWTResourceManager.getFont("TH Baijam", 90, SWT.BOLD));
+		Hr_lb_6.setFont(SWTResourceManager.getFont("TH SarabunPSK", 75, SWT.BOLD));
 		Hr_lb_6.setBounds(252, 174, 36, 144);
 		
 		Hr_lb_9 = new Label(shlCountdownTimer, SWT.CENTER);
 		Hr_lb_9.setText("Time");
 		Hr_lb_9.setForeground(SWTResourceManager.getColor(SWT.COLOR_LINK_FOREGROUND));
-		Hr_lb_9.setFont(SWTResourceManager.getFont("TH Baijam", 55, SWT.BOLD));
+		Hr_lb_9.setFont(SWTResourceManager.getFont("TH SarabunPSK", 50, SWT.BOLD));
 		Hr_lb_9.setBounds(370, 59, 349, 84);
 		
 		Hr_lb_7 = new Label(shlCountdownTimer, SWT.NONE);
 		Hr_lb_7.setText(":");
-		Hr_lb_7.setFont(SWTResourceManager.getFont("TH Baijam", 90, SWT.BOLD));
+		Hr_lb_7.setFont(SWTResourceManager.getFont("TH SarabunPSK", 75, SWT.BOLD));
 		Hr_lb_7.setBounds(451, 174, 36, 144);
 
 	}
